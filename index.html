@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore proposed Agentforce use cases for the UChicago Medicine Access Center."
+    />
+    <meta name="theme-color" content="#6b0f1a" />
+    <title>UCM Implement | Access Center Agentforce Use Cases</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="UCM Implement home">
+        <span class="brand-copy">
+          <strong>UCM Implement</strong>
+          <span>Access Center concept</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#explore">Use cases</a>
+        <a href="#principles">Principles</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Agentforce for the Access Center</p>
+          <h1 id="hero-title">
+            Give every agent the right context,
+            <span>at the right moment.</span>
+          </h1>
+          <p class="hero-lede">
+            A proposed set of assistive workflows that connects approved UCM
+            guidance, Salesforce records, and call context—while keeping the
+            Access Center agent in control.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#explore"
+              >Explore 17 use cases</a
+            >
+            <a class="button button-secondary" href="#principles"
+              >See the guardrails</a
+            >
+          </div>
+        </div>
+
+        <aside class="context-panel" aria-label="Three levels of call context">
+          <div class="context-panel-heading">
+            <span>Context maturity</span>
+            <span class="live-dot">Human-led</span>
+          </div>
+          <ol class="context-ladder">
+            <li>
+              <span class="context-number">01</span>
+              <div>
+                <strong>Agent-entered context</strong>
+                <p>The rep supplies the call reason or notes.</p>
+              </div>
+            </li>
+            <li>
+              <span class="context-number">02</span>
+              <div>
+                <strong>Completed transcript</strong>
+                <p>The call is summarized and matched after wrap-up.</p>
+              </div>
+            </li>
+            <li>
+              <span class="context-number">03</span>
+              <div>
+                <strong>Live transcript</strong>
+                <p>Suggestions respond while the conversation unfolds.</p>
+              </div>
+            </li>
+          </ol>
+        </aside>
+      </section>
+
+      <section class="trust-strip" aria-label="Solution boundaries">
+        <div>
+          <span class="trust-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 3 5 6v5c0 4.6 2.9 8.8 7 10 4.1-1.2 7-5.4 7-10V6l-7-3Z"
+              />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+          </span>
+          <span
+            ><strong>Approved sources</strong> UCM Knowledge, SOPs, and
+            accessible records</span
+          >
+        </div>
+        <div>
+          <span class="trust-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="8" r="4" />
+              <path d="M4.5 21c.7-4.5 3.2-7 7.5-7s6.8 2.5 7.5 7" />
+            </svg>
+          </span>
+          <span
+            ><strong>Human accountable</strong> The agent reviews every
+            recommendation</span
+          >
+        </div>
+        <div>
+          <span class="trust-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="5" y="10" width="14" height="10" rx="2" />
+              <path d="M8 10V7a4 4 0 0 1 8 0v3" />
+            </svg>
+          </span>
+          <span
+            ><strong>Permission-aware</strong> Existing Salesforce access still
+            applies</span
+          >
+        </div>
+      </section>
+
+      <section
+        class="section overview"
+        id="overview"
+        aria-labelledby="overview-title"
+      >
+        <div class="section-intro">
+          <p class="eyebrow">The opportunity</p>
+          <h2 id="overview-title">
+            One assistive experience, three levels of awareness
+          </h2>
+          <p>
+            The use cases progress from reliable, agent-entered context to
+            transcript-powered assistance. Each stage adds speed and relevance
+            without removing human judgment.
+          </p>
+        </div>
+        <div class="metric-grid" aria-label="Use case totals">
+          <article class="metric-card">
+            <strong>17</strong>
+            <span>proposed workflows</span>
+          </article>
+          <article class="metric-card">
+            <strong>3</strong>
+            <span>context stages</span>
+          </article>
+          <article class="metric-card">
+            <strong>1</strong>
+            <span>human decision-maker</span>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="section explore"
+        id="explore"
+        aria-labelledby="explore-title"
+      >
+        <div class="explore-header">
+          <div class="section-intro">
+            <p class="eyebrow">Explore the portfolio</p>
+            <h2 id="explore-title">Access Center use cases</h2>
+            <p>
+              Filter by the context available to Agentforce. Select any card for
+              the full agent experience, example, and implementation needs.
+            </p>
+          </div>
+          <label class="search-control">
+            <span class="visually-hidden">Search use cases</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m16.5 16.5 4 4" />
+            </svg>
+            <input
+              id="use-case-search"
+              type="search"
+              placeholder="Search use cases"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div
+          class="filter-bar"
+          role="group"
+          aria-label="Filter use cases by transcript stage"
+        >
+          <button
+            class="filter-button is-active"
+            type="button"
+            data-filter="all"
+          >
+            All <span>17</span>
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="no-transcript"
+          >
+            Agent-entered <span>6</span>
+          </button>
+          <button class="filter-button" type="button" data-filter="post-call">
+            After the call <span>5</span>
+          </button>
+          <button class="filter-button" type="button" data-filter="live">
+            During the call <span>6</span>
+          </button>
+        </div>
+
+        <div id="use-case-sections" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <h3>No matching use cases</h3>
+          <p>Try another search term or clear the active filter.</p>
+          <button id="clear-search" class="text-button" type="button">
+            Clear search
+          </button>
+        </div>
+        <noscript>
+          <p class="noscript-message">
+            JavaScript is required to display and filter the use case portfolio.
+          </p>
+        </noscript>
+      </section>
+
+      <section
+        class="section operating-model"
+        aria-labelledby="operating-model-title"
+      >
+        <div class="section-intro">
+          <p class="eyebrow">A consistent operating model</p>
+          <h2 id="operating-model-title">
+            From patient need to reviewed action
+          </h2>
+        </div>
+        <ol class="process">
+          <li>
+            <span>1</span>
+            <div>
+              <strong>Understand</strong>
+              <p>
+                Use entered notes, completed transcripts, or live utterances.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>2</span>
+            <div>
+              <strong>Ground</strong>
+              <p>Consult approved policy, Knowledge, and accessible records.</p>
+            </div>
+          </li>
+          <li>
+            <span>3</span>
+            <div>
+              <strong>Recommend</strong>
+              <p>
+                Suggest guidance, routing, missing details, or record updates.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>4</span>
+            <div>
+              <strong>Confirm</strong>
+              <p>
+                The Access Center agent checks, corrects, and approves the
+                action.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section
+        class="section principles"
+        id="principles"
+        aria-labelledby="principles-title"
+      >
+        <div class="principles-heading">
+          <p class="eyebrow eyebrow-light">Design principles</p>
+          <h2 id="principles-title">
+            Assist the agent. Do not replace their judgment.
+          </h2>
+          <p>
+            Every experience should make the source, uncertainty, and required
+            human action clear.
+          </p>
+        </div>
+        <div class="principle-grid">
+          <article>
+            <span>01</span>
+            <h3>Show the source</h3>
+            <p>
+              Link recommendations back to the approved policy or Salesforce
+              record.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Ask before writing</h3>
+            <p>
+              Require review before creating Cases, Tasks, or handoff summaries.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Respect access</h3>
+            <p>
+              Never expose patient or operational data beyond the user’s
+              permissions.
+            </p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Recover gracefully</h3>
+            <p>
+              Make it easy to correct a suggestion or continue without AI
+              assistance.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <div>
+          <strong>UCM Implement</strong>
+          <p>Agentforce Access Center use case concept</p>
+        </div>
+      </div>
+      <p>For internal discussion and planning.</p>
+    </footer>
+
+    <dialog id="use-case-dialog" class="use-case-dialog">
+      <div class="dialog-shell">
+        <button
+          class="dialog-close"
+          type="button"
+          aria-label="Close use case details"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+        <div id="dialog-content"></div>
+      </div>
+    </dialog>
+  </body>
+</html>
